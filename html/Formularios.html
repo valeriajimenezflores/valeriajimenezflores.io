@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../style_page.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+<h1>Formularios en HTML</h1>
+<p>&nbsp;</p>
+</header><nav>&nbsp;<ul class="menu">
+    <li><a href="formatos de texto.html">&nbsp;Formatos de texto</a></li>
+    <li><a href="enlaces.html">Enlaces</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="imagenes.html">Imagenes</a></li>
+    <li><a href="audio.html">Audio</a></li>
+    <li><a href="video.html">Video&nbsp;&nbsp;</a></li>
+    <li><a href="Formularios.html">Formularios&nbsp;</a></li>
+    <li><a href="../index.html">&nbsp;Menú</a></li>
+  </ul></nav>
+<main>
+<section>
+    <h2 id="m1">Formulario&nbsp;</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+    <form id="form1" name="form1" method="get">
+      <label for="Nombre">Nombre:</label>
+      <label for="textfield2">&nbsp;</label>
+      <input type="Apellido" name="Apellido" id="textfield2">
+      &nbsp;Apellido:&nbsp;
+<input type="text" name="textfield" id="textfield">
+<input type="submit" name="submit" id="submit" value="Enviar">
+      
+    </form>
+    <p>&nbsp;</p>
+</section>
+<section>
+  <h2 id="m2">Formulario usando select, checkbox y radiobutton&nbsp;&nbsp;</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla <a href="formatos de texto.html" target="_blank">&nbsp;</a>mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <form id="form2" name="form2" method="post">
+    <label for="select">¿De que pais nos visita?:</label>
+    <select name="select" id="pais">
+      <option>Mexico</option>
+      <option>España</option>
+      <option>EUA</option>
+      <option>Canada</option>
+    </select>
+    <input type="submit" name="submit2" id="boton2" value="Enviar">
+    
+  </form>
+<label for="checkbox">&nbsp; &nbsp; &nbsp; &nbsp; Genero: </label>
+  <p>
+    <label>
+      <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_0">
+      Femenino</label>
+    <br>
+    <label>
+      <input type="radio" name="RadioGroup1" value="opción" id="RadioGroup1_1">
+      Masculino
+    </label>
+    <br>
+</p>
+  <label>¿Cual sera tu residencia durante tu estancia?&nbsp;</label>
+  <p>
+    <label>
+      <input type="radio" name="&iquest;Cual sera tu residencia durante tu estancia?" value="Privado" id="iquestCualseraturesidenciadurantetuestancia_0">
+      Hotel</label>
+    <br>
+    <label>
+      <input type="radio" name="&iquest;Cual sera tu residencia durante tu estancia?" value="amigos/conocidos" id="iquestCualseraturesidenciadurantetuestancia_1">
+      Domicilio</label>
+    <br>
+    <label>
+      <input type="radio" name="&iquest;Cual sera tu residencia durante tu estancia?" value="Arbnb" id="iquestCualseraturesidenciadurantetuestancia_2">
+      Arbnb</label>
+    <br>
+</p>
+<p>&nbsp;</p>
+</section>
+<section>
+  <h2 id="m3">Formulario de contacto&nbsp;&nbsp;</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla <a href="formatos de texto.html" target="_blank">&nbsp;</a>mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+<label for="textfield3">Nombre:</label>
+  <input type="text" name="textfield3" id="textfield3">
+  <label for="textfield4">Email:</label>
+  <input name="textfield5" type="text" id="textfield3">
+  <label for="textfield5"><br>
+    Mensaje:</label>
+<input type="text" name="textfield4" id="textfield4">
+<input type="submit" name="submit2" id="submit2" value="Enviar">
+</section>
+<section>
+  <p>&nbsp;</p>
+  <h1>&nbsp;Fecha/Nacimiento&nbsp;</h1>
+<form action="/action_page.php">
+  <label for="birthday">Fecha:</label>
+  <input type="date" id="birthday" name="birthday">
+  <input type="submit" value="Enviar">
+</form>
+<p>&nbsp;</p>
+<h1>Campo mes</h1>
+<p><form action="/action_page.php">
+  <label for="bdaymonth">Cumpleaños (mes y año&nbsp; ):</label>
+  <input type="month" id="bdaymonth" name="bdaymonth">
+</form>
+<p><h1>De medida</h1>
+<form action="/action_page.php" method="get">
+  <label for="vol">Volumen (Entre 0 &nbsp; 50):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+<input type="enviar" value="enviar"></p> <h1>Mostrar una imagen como el botón Enviar</h1>
+<p><form action="/action_page.php">
+  <label for="fname">First name: </label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name: </label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="image" src="../medios/imagenes/kisspng-push-button-computer-icons-electrical-switches-pus-click-5abdee450effa9.3416910615223967410614.jpg" alt="Submit" width="48" height="48">
+</form></p>
+<form action="/action_page.php">
+  <h1>Restricciones de campo de fecha</h1>
+  <label for="datemin">Insentar un dia antes 2000-01-01:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+  <label for="datemax">Insentar un dia despues 1980-01-01:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  
+  <input type="submit" value="Enviar"></p>
+</p>
+</section>
+</main>
+
+<footer>
+  <h6>Elaborado por Valeria Jimenez Flores&nbsp;</h6>
+</footer>
+</body>
+</html>

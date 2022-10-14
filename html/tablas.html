@@ -1,0 +1,350 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../style_page.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+  <h1>Tablas en html</h1>
+  <p>&nbsp;</p>
+</header><nav>&nbsp;
+	<ul class="menu">
+    <li><a href="formatos de texto.html">&nbsp;Formatos de texto</a></li>
+    <li><a href="enlaces.html">Enlaces</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="imagenes.html">Imagenes</a></li>
+    <li><a href="audio.html">Audio</a></li>
+    <li><a href="video.html">Video&nbsp;&nbsp;</a></li>
+    <li><a href="Formularios.html">Formularios&nbsp;</a></li>
+    <li><a href="../index.html">&nbsp;Menú</a></li>
+  </ul></nav>
+<main>
+  <section>
+    <h2>Tabla desde codigo</h2>
+    <p>Lorem ipsum dolor sit amhet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehender <a href="http://www.buap.mx" it in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<table id="tabla_1" style="border: solid 3px #D95CC1 ">
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Email</th>
+					<th>Taller</th>
+					<th>Cuota</th>
+				</tr>
+			
+			</thead>
+			<tbody>
+				<tr>
+					<td>Rosa</td>
+					<td>Pintura</td>
+					<td>rosita@gmail</td>
+					<td>$800</td>
+					
+				</tr>
+				<tr>
+					<td>Jose</td>
+					<td>Comic</td>
+					<td>Jose23@gmail</td>
+					<td>$750</td>
+				</tr>
+				<tr>
+					<td>Jessica</td>
+					<td>Encuadernado</td>
+					<td>Jess@gmail</td>
+					<td>$1100</td>
+				</tr>
+				<tr>
+					<td>Alejandro</td>
+					<td>Fotografia</td>
+					<td>alex23@gmail</td>
+					<td>$500</td>
+				</tr>
+				<tr>
+					<td>Vanessa</td>
+					<td>Comic</td>
+					<td>Vanns@gmail</td>
+					<td>$750</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<!--<td></td>
+					<td></td>-->
+					<td>Total de inscripcion</td>
+					<td>$3900</td>
+				
+				
+				</tr>
+			</tfoot>
+    </table>
+</section>
+  <section>
+    <h2>Tabla con estilo css o rowspan&nbsp;</h2>
+<p>Lorem ipsum dolor sit amhet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehender <a href="http://www.buap.mx" it in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <table id="tabla_2" style="border: solid #E463E3px ">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Email</th>
+          <th>Taller</th>
+          <th>Cuota</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Rosa</td>
+          <td>Pintura</td>
+          <td>rosita@gmail</td>
+          <td>$800</td>
+        </tr>
+        <tr>
+          <td>Jose</td>
+          <td>Comic</td>
+          <td>Jose23@gmail</td>
+          <td>$750</td>
+        </tr>
+        <tr>
+          <td>Jessica</td>
+          <td>Encuadernado</td>
+          <td>Jess@gmail</td>
+          <td>$1100</td>
+        </tr>
+        <tr>
+          <td>Alejandro</td>
+          <td>Fotografia</td>
+          <td>alex23@gmail</td>
+          <td>$500</td>
+        </tr>
+        <tr>
+          <td>Vanessa</td>
+          <td>Comic</td>
+          <td>Vanns@gmail</td>
+          <td>$750</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+        <tr>
+					<!--<td></td>
+					<td></td>-->
+					<td colspan="3" style="background-color: #EB1378">Total de inscripcion</td>
+					<td>$3900</td>
+				
+        
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+<section>
+    <h2>Tablas con cebras en horizontal o filas</h2>
+    <p>Lorem ipsum dolor sit amhet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labotris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehender <a href="http://www.buap.mx" it in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla3">
+		<thead>
+			  <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">&nbsp;Correo electronico</th>
+          <th scope="col">&nbsp;Telefono</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+		</thead>
+      <tbody>
+      
+        <tr>
+          <td>&nbsp;Luz del Carmen</td>
+          <td>&nbsp;Luz21@gmail</td>
+          <td>&nbsp;2495216791</td>
+          <td>15</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Angela</td>
+          <td>&nbsp;angi67@gmail.com</td>
+          <td>&nbsp;2491553910</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Luis Enrique</td>
+          <td>&nbsp;Enril@gmail.com</td>
+          <td>&nbsp;2214597891</td>
+          <td>&nbsp;15</td>
+          <td>&nbsp;Voleibol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Martha</td>
+          <td>&nbsp;Marthi@gmail.com</td>
+          <td>&nbsp;2489125115</td>
+          <td>&nbsp;14</td>
+          <td>&nbsp;Danza</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+  <section>
+    <h2>&nbsp;Tablas con cebras en vertical o columnas&nbsp;</h2>
+<p>Lorem ipsum dolor sit amhet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehender <a href="http://www.buap.mx" it in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_4">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">&nbsp;Correo electronico</th>
+          <th scope="col">&nbsp;Telefono</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Luz del Carmen</td>
+          <td>&nbsp;Luz21@gmail</td>
+          <td>&nbsp;2495216791</td>
+          <td>15</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Angela</td>
+          <td>&nbsp;angi67@gmail.com</td>
+          <td>&nbsp;2491553910</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Luis Enrique</td>
+          <td>&nbsp;Enril@gmail.com</td>
+          <td>&nbsp;2214597891</td>
+          <td>&nbsp;15</td>
+          <td>&nbsp;Voleibol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Martha</td>
+          <td>&nbsp;Marthi@gmail.com</td>
+          <td>&nbsp;2489125115</td>
+          <td>&nbsp;14</td>
+          <td>&nbsp;Danza</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+<section>
+  <h2>Tabla flotante (hover)</h2>
+<p>Lorem ipsum dolor sit amhet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehender <a href="http://www.buap.mx" it in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_5">
+      <thead>
+        <tr>
+          <th scope="col">&nbsp;Nombre</th>
+          <th scope="col">&nbsp;Correo electronico</th>
+          <th scope="col">&nbsp;Telefono</th>
+          <th scope="col">&nbsp;Edad</th>
+          <th scope="col">Deporte&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;Luz del Carmen</td>
+          <td>&nbsp;Luz21@gmail</td>
+          <td>&nbsp;2495216791</td>
+          <td>15</td>
+          <td>&nbsp;Futbol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Angela</td>
+          <td>&nbsp;angi67@gmail.com</td>
+          <td>&nbsp;2491553910</td>
+          <td>&nbsp;16</td>
+          <td>&nbsp;Natación</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Luis Enrique</td>
+          <td>&nbsp;Enril@gmail.com</td>
+          <td>&nbsp;2214597891</td>
+          <td>&nbsp;15</td>
+          <td>&nbsp;Voleibol</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Martha</td>
+          <td>&nbsp;Marthi@gmail.com</td>
+          <td>&nbsp;2489125115</td>
+          <td>&nbsp;14</td>
+          <td>&nbsp;Danza</td>
+        </tr>
+      </tbody>
+    </table>
+</section>
+<section id="section_1">
+  <h2>Tabla receptiva</h2>
+  <p>&nbsp;Lorem ipsum dolor sit amhet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labotris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehender</p>
+  <div id="tabla_receptiva">
+    <table width="0" border="1" cellspacing="5" id="tabla_6">
+      <tbody>
+        <tr>
+          <th scope="col">Nombre&nbsp;</th>
+          <th scope="col">Puntos&nbsp;</th>
+          <th scope="col">Puntos</th>
+          <th scope="col">&nbsp;Puntos</th>
+          <th scope="col">Puntos</th>
+          <th scope="col">&nbsp;Puntos</th>
+          <th scope="col">&nbsp;Puntos</th>
+          <th scope="col">&nbsp;Puntos</th>
+          <th scope="col">&nbsp;Puntos</th>
+          <th scope="col">Puntos&nbsp;</th>
+        </tr>
+        <tr>
+          <td>&nbsp;Julia</td>
+          <td>&nbsp;40</td>
+          <td>&nbsp;25</td>
+          <td>97</td>
+          <td>&nbsp;90</td>
+          <td>&nbsp;36</td>
+          <td>&nbsp;45</td>
+          <td>&nbsp;85</td>
+          <td>&nbsp;45</td>
+          <td>&nbsp;26</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Mario</td>
+          <td>&nbsp;58</td>
+          <td>&nbsp;45</td>
+          <td>&nbsp;36</td>
+          <td>&nbsp;45</td>
+          <td>&nbsp;46</td>
+          <td>&nbsp;69</td>
+          <td>&nbsp;96</td>
+          <td>54</td>
+          <td>32</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Fernanda</td>
+          <td>&nbsp;24</td>
+          <td>&nbsp;22</td>
+          <td>&nbsp;78</td>
+          <td>&nbsp;23</td>
+          <td>&nbsp;47</td>
+          <td>78</td>
+          <td>33</td>
+          <td>&nbsp;46</td>
+          <td>&nbsp;52</td>
+        </tr>
+        <tr>
+          <td>&nbsp;Hugo</td>
+          <td>54</td>
+          <td>&nbsp;47</td>
+          <td>76</td>
+          <td>&nbsp;98</td>
+          <td>&nbsp;36</td>
+          <td>&nbsp;23</td>
+          <td>&nbsp;23</td>
+          <td>91</td>
+          <td>&nbsp;45</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+</section>
+</main>
+<footer>
+  <h6>Elaborado por Valeria Jimenez Flores&nbsp;</h6>
+&nbsp;</footer>
+</body>
+</html>
